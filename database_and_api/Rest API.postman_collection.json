@@ -1,0 +1,463 @@
+{
+	"info": {
+		"_postman_id": "081f3d40-d6a0-4837-8569-9cb11de29520",
+		"name": "Rest API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Apikey",
+						"value": "OvfK6C4nX2BG4EGFcpdEdgbbFq7uOIct",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "device_type",
+							"value": "Android",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "jpar@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "device_id",
+							"value": "123456",
+							"type": "text"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/code_test/app/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"code_test",
+						"app",
+						"login"
+					]
+				},
+				"description": "Login"
+			},
+			"response": []
+		},
+		{
+			"name": "Signup",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Apikey",
+						"value": "OvfK6C4nX2BG4EGFcpdEdgbbFq7uOIct",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "device_type",
+							"value": "Android",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "jpar@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123456",
+							"type": "text"
+						},
+						{
+							"key": "device_id",
+							"value": "123456",
+							"type": "text"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/code_test/App/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"code_test",
+						"App",
+						"signup"
+					]
+				},
+				"description": "signup"
+			},
+			"response": []
+		},
+		{
+			"name": "AdminList",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Apikey",
+						"value": "OvfK6C4nX2BG4EGFcpdEdgbbFq7uOIct",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/code_test/App/adminList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"code_test",
+						"App",
+						"adminList"
+					]
+				},
+				"description": "adminList"
+			},
+			"response": []
+		},
+		{
+			"name": "countryList",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Apikey",
+						"value": "OvfK6C4nX2BG4EGFcpdEdgbbFq7uOIct",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/code_test/App/countryList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"code_test",
+						"App",
+						"countryList"
+					]
+				},
+				"description": "country"
+			},
+			"response": []
+		},
+		{
+			"name": "createCustomer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Apikey",
+						"value": "OvfK6C4nX2BG4EGFcpdEdgbbFq7uOIct",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "4564456",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "jayra6556j singh",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "jay645465455@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "78916656",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "admin",
+							"value": "2",
+							"type": "text"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/code_test/App/createCustomer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"code_test",
+						"App",
+						"createCustomer"
+					]
+				},
+				"description": "deleteCustomer"
+			},
+			"response": []
+		},
+		{
+			"name": "deleteCustmer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Apikey",
+						"value": "OvfK6C4nX2BG4EGFcpdEdgbbFq7uOIct",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customer_id",
+							"value": "1",
+							"type": "text"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/code_test/App/deleteCustomer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"code_test",
+						"App",
+						"deleteCustomer"
+					]
+				},
+				"description": "createCustomer"
+			},
+			"response": []
+		},
+		{
+			"name": "updateCustomer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Apikey",
+						"value": "OvfK6C4nX2BG4EGFcpdEdgbbFq7uOIct",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customer_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "jayrj singh parmar",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "parmar2@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "9827567488",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "admin",
+							"value": "2",
+							"type": "text"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/code_test/App/updateCustomer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"code_test",
+						"App",
+						"updateCustomer"
+					]
+				},
+				"description": "updateCustomer"
+			},
+			"response": []
+		},
+		{
+			"name": "custmerList",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Apikey",
+						"value": "OvfK6C4nX2BG4EGFcpdEdgbbFq7uOIct",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customer_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "jayrj singh parmar",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "parmar2@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "9827567488",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "admin",
+							"value": "2",
+							"type": "text"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/code_test/App/custmerList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"code_test",
+						"App",
+						"custmerList"
+					]
+				},
+				"description": "custmerList"
+			},
+			"response": []
+		},
+		{
+			"name": "customerList",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Apikey",
+						"value": "OvfK6C4nX2BG4EGFcpdEdgbbFq7uOIct",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "admin_id",
+							"value": "2",
+							"type": "text"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/code_test/App/customerList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"code_test",
+						"App",
+						"customerList"
+					]
+				},
+				"description": "customerList"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
